@@ -1,0 +1,10 @@
+:root {
+  --primary: #000000;
+  --primary-text: #ffffff;
+  --secondary: #fa75e6;
+  --secondary-text: #4b4b4b;
+  --accent: #000000;
+  --accent-text: #fa75e6;
+  --price-text: #9d75fa;
+  --contract-verify:#f4a7e7;
+}
