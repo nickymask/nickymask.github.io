@@ -1,0 +1,20 @@
+{
+  "CONTRACT_ADDRESS": "0x075B58CB4857b84Aa1f2BDD9b4e39d6C9420d454",
+  "DISCORD_PAGE": "DISCORD",
+  "DISCORD_LINK": "https://discord.com/invite/2WEtggkntY",
+  "SCAN_LINK": "https://polygonscan.com/address/0x075B58CB4857b84Aa1f2BDD9b4e39d6C9420d454",
+  "NETWORK": {
+    "NAME": "Polygon",
+    "SYMBOL": "Matic",
+    "ID": 137
+  },
+  "NFT_NAME": "Flowers by nickymask",
+  "SYMBOL": "FLOWER",
+  "MAX_SUPPLY": 1800,
+  "WEI_COST": 0,
+  "DISPLAY_COST": 0,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/flowers-by-nickymask",
+  "SHOW_BACKGROUND": false
+}
