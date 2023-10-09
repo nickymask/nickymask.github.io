@@ -176,4 +176,19 @@ html {
     font-weight: 700;
     font-size: 0.85rem;
   }
+
+/* Style for the video container */
+.video-container {
+    border-radius: 15px; /* Adjust the radius as per your preference */
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: Add a shadow effect */
+}
+
+/* Style for the video element inside the container */
+.video-container video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
   
