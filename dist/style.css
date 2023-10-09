@@ -179,10 +179,11 @@ html {
 
 /* Style for the video container */
 .video-container {
+    max-width: 500px; /* Set your desired maximum width for desktop */
+    width: 100%;
     border-radius: 15px; /* Adjust the radius as per your preference */
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: Add a shadow effect */
-    max-width: 100%; /* Ensure the video container doesn't exceed the viewport width */
     margin: 0 auto; /* Center the container horizontally */
 }
 
