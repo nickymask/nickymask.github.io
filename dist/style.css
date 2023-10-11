@@ -58,7 +58,7 @@ html {
     font-size: 0.95rem;
     font-weight: 800;
     color: #afac00;
-    border: 2px solid #afac00;
+    border: 2px solid #ff287f;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
     background-color: rgb(3, 3, 3);
@@ -66,8 +66,8 @@ html {
   }
   
   a:hover {
-    background-color: #e9e500f6;;
-    color: #000000;
+    background-color: #000000;;
+    color: #ffffff;
     font-family: sans-serif;
   }
   
