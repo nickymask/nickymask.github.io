@@ -22,7 +22,7 @@ html {
   /* Mobile styles */
 @media (max-width: 767px) {
   body {
-    background-image: url('/img/nebula.jpeg');
+    background-image: url('/img/mask.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
