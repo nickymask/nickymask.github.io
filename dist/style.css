@@ -20,6 +20,10 @@ html {
       color: #FFFFFF; /* Choose your subheading text color */
       font-family: 'Single Day', cursive;
     }
+
+  .button:hover .subheading {
+      color: #00aff0; /* Change the subheading color on hover to #00aff0 */
+    }
   
   body {
     background-image: url('/img/mask.png');
