@@ -9,6 +9,16 @@ html {
   :before {
     box-sizing: inherit;
   }
+
+.button-container {
+      text-align: center; /* Center the content horizontally */
+    }
+
+.subheading {
+      margin-top: 10px; /* Add some space between the button and subheading */
+      font-size: 14px;
+      color: #FFFFFF; /* Choose your subheading text color */
+    }
   
   body {
     background-image: url('/img/mask.png');
