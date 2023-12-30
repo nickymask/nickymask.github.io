@@ -89,6 +89,7 @@ html {
   a.featured {
     background-color: #ff287f;
     position: relative;
+    padding: 10px 20px;
     color: #000000f6;
     font-weight: 800;
     border: 2px solid #ffffff;
