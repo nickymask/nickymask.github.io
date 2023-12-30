@@ -72,7 +72,7 @@ html {
     font-weight: 800;
     color: #00AFF0;
     border: 2px solid #ff287f;
-    border-radius: 50%; /* Make the button round by setting border-radius to 50% */
+    border-radius: 10px; /* Make the button round by setting border-radius to 50% */
     text-decoration: none;
     transition: all 0.2s ease-in-out;
     background-color: rgb(3, 3, 3);
@@ -92,7 +92,7 @@ html {
     color: #000000f6;
     font-weight: 800;
     border: 2px solid #ffffff;
-    border-radius: 50%; /* Make the button round by setting border-radius to 50% */
+    border-radius: 10px; /* Make the button round by setting border-radius to 50% */
     font-family: sans-serif;
   }
 
