@@ -14,15 +14,11 @@ html {
       text-align: center; /* Center the content horizontally */
     }
 
-  .button:hover .subheading {
-      color: #00aff0; /* Change the subheading color on hover to #00aff0 */
-    }
-  
 
 .subheading {
       margin-top: 10px; /* Add some space between the button and subheading */
       font-size: 14px;
-      color: #FFFFFF; /* Choose your subheading text color */
+      color: #00aff0; /* Choose your subheading text color */
       font-family: 'Single Day', cursive;
     }
 
