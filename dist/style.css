@@ -67,7 +67,7 @@ html {
     display: block;
     max-width: 400px;
     margin: 0 auto 15px;
-    padding: 8px 20px;
+    padding: 10px 20px;
     font-size: 0.95rem;
     font-weight: 800;
     color: #00AFF0;
@@ -81,7 +81,7 @@ html {
   
   a:hover {
     background-color: #ffffff;;
-    color: #000000;
+    color: #00AFF0;
     font-family: sans-serif;
   }
   
@@ -89,7 +89,6 @@ html {
   a.featured {
     background-color: #ff287f;
     position: relative;
-    padding: 10px 20px;
     color: #000000f6;
     font-weight: 800;
     border: 2px solid #ffffff;
