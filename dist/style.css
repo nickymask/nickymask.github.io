@@ -16,7 +16,7 @@ html {
 
 
 .subheading {
-      margin-top: 10px; /* Add some space between the button and subheading */
+      margin-top: 8px; /* Add some space between the button and subheading */
       font-size: 14px;
       color: #00aff0; /* Choose your subheading text color */
       font-family: 'Single Day', cursive;
@@ -67,7 +67,7 @@ html {
     display: block;
     max-width: 400px;
     margin: 0 auto 15px;
-    padding: 10px 20px;
+    padding: 15px 20px;
     font-size: 0.95rem;
     font-weight: 800;
     color: #00AFF0;
