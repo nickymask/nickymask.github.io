@@ -14,6 +14,11 @@ html {
       text-align: center; /* Center the content horizontally */
     }
 
+  .button:hover .subheading {
+      color: #00aff0; /* Change the subheading color on hover to #00aff0 */
+    }
+  
+
 .subheading {
       margin-top: 10px; /* Add some space between the button and subheading */
       font-size: 14px;
@@ -21,10 +26,7 @@ html {
       font-family: 'Single Day', cursive;
     }
 
-  .button:hover .subheading {
-      color: #00aff0; /* Change the subheading color on hover to #00aff0 */
-    }
-  
+
   body {
     background-image: url('/img/mask.png');
     background-size: cover;
