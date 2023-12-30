@@ -179,6 +179,20 @@ html {
     font-size: 0.85rem;
   }
 
+.black-blue {
+    display: block;
+    max-width: 400px;
+    background-color: #00AFF0;
+    color: #ffffff;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Single Day', cursive;
+    margin: 0 auto 15px;
+    font-weight: 700;
+    font-size: 0.85rem;
+  }
+
+
   .white-background {
     display: block;
     max-width: 250px;
