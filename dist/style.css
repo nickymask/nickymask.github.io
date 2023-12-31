@@ -27,6 +27,7 @@ html {
       background-color: #ff287f; /* Choose your button color */
       color: #000000; /* Choose your text color */
       border-radius: 5px;
+      border: 2px solid #fff; /* Add a white border */
       transition: background-color 0.3s;
     }
 
