@@ -10,6 +10,33 @@ html {
     box-sizing: inherit;
   }
 
+ .nsfw {
+      display: flex;
+      max-width: 400px;
+      margin: 0 auto; /* Center the buttons within the container */
+      font-family: sans-serif;
+      font-weight: 800;
+    }
+
+    .nsfw a.button {
+      flex: 1; /* Each button takes an equal portion of the available space */
+      margin: 5px; /* Add margin between the buttons */
+      padding: 10px;
+      text-align: center;
+      text-decoration: none;
+      background-color: #ff287f; /* Choose your button color */
+      color: #000000; /* Choose your text color */
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .nsfw a.button:hover {
+      background-color: #000000; /* Choose a different color on hover if desired */
+      color: #ffffff; /* Choose your text color */
+    }
+
+
+
 .button-container {
       text-align: center; /* Center the content horizontally */
     }
