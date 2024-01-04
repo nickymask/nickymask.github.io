@@ -46,9 +46,9 @@ html {
 .subheading {
       margin-top: 2px; /* Add some space between the button and subheading */
       margin-bottom: 0.2px;
-      font-size: 14px;
+      font-size: 10px;
       color: #666666; /* Choose your subheading text color */
-      font-family: 'Single Day', cursive;
+      font-family: 'Arial';
     }
 
 
@@ -96,7 +96,7 @@ html {
     display: block;
     max-width: 400px;
     margin-top: 10px;
-    margin: 0 auto 5px;
+    margin: 50px auto 20px;
     padding: 15px 20px;
     font-size: .95rem;
     font-weight: 800;
@@ -113,7 +113,7 @@ html {
     background-color: #000000;;
     color: #808080;
     font-family: sans-serif;
-    border: 3px double #808080;
+    border: 3px solid #808080;
   }
   
   /* Featured Link */
@@ -213,11 +213,11 @@ html {
 .black-blue {
     display: block;
     max-width: 400px;
-    background-color: #808080;
+    background-color: #80808000;
     color: #000000;
     padding: 8px;
     text-align: center;
-    font-family: 'Single Day', cursive;
+    font-family: 'Arial';
     margin: 0 auto 15px;
     font-weight: 800;
     font-size: .85rem;
