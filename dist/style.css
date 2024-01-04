@@ -129,7 +129,7 @@ html {
   a.featured:hover {
     background-color: #000000;;
     color: #808080;
-    border: 2px solid #ffffff;
+    border: 2px solid #333333;
   }
 
   
@@ -140,7 +140,7 @@ html {
     left: 2px;
     width: calc(100% - 4px);
     height: calc(100% - 4px);
-    border: 2px solid #000000;
+    border: 2px solid #333333;
   }
   
   /* Headings */
