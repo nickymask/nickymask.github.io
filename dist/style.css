@@ -64,7 +64,7 @@ html {
   /* Mobile styles */
 @media (max-width: 767px) {
   body {
-    background-image: url('/img/mask.gif');
+    background-image: url('https://bafybeignf2oq3ydhalvd7o5bym4omvy6e5xfscixqa3vjd3tr2hj3umkmi.ipfs.nftstorage.link/mask.gif');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
