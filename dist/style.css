@@ -101,7 +101,7 @@ html {
     font-size: .95rem;
     font-weight: 800;
     color: #ffffff;
-    border: 3px double #ffffff;
+    border: 3px solid #ffffff;
     border-radius: 10px; /* Make the button round by setting border-radius to 50% */
     text-decoration: none;
     transition: all 0.2s ease-in-out;
@@ -219,8 +219,8 @@ html {
     text-align: center;
     font-family: 'Arial';
     margin: 0 auto 15px;
-    font-weight: 800;
-    font-size: .85rem;
+    font-weight: 400;
+    font-size: .75rem;
   }
 
 
