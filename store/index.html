@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        .card {
+            background-color: white;
+            color: black;
+            margin-bottom: 20px;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        .btn-black-white {
+            background-color: black;
+            color: white;
+            border: 1px solid white;
+        }
+
+        .btn-black-white:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+        }
+
+        .btn-bitcoin {
+            background-color: orange;
+            color: white;
+            border: 1px solid #f7931a;
+        }
+
+        .btn-bitcoin:hover {
+            background-color: #f7931a;
+            color: black;
+            border: 1px solid orange;
+        }
+
+        .btn-container {
+            display: flex;
+            gap: 10px;
+        }
+
+        .card-body ul {
+            padding-left: 20px;
+        }
+
+        .card-body li {
+            margin-bottom: 5px;
+        }
+
+        .container {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        
+        @media (min-width: 992px) {
+            /* Center content on large screens */
+            .container {
+                max-width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <!-- First Product: Zentai Mask Elite Consulting -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://nickymask.com/img/nickymaskZentaiConsulting.jpg" class="card-img-top" alt="Product">
+                    <div class="card-body">
+                        <h5 class="card-title">ZENTAI MASK ELITE | CONSULTING</h5>
+                        <p class="card-text">
+                            It can be tough to get results online, especially when you're stuck without a clear path forward. 
+                            By joining our consulting program, you'll receive:
+                            <ul>
+                                <li>A toolbox of actionable strategies to help you break through obstacles.</li>
+                                <li>Personalized guidance tailored to your unique challenges.</li>
+                                <li>Ongoing support to keep you motivated and on track.</li>
+                                <li>Pack of 4 consultations with me or voice messaging to address your specific challenges.</li>
+                            </ul>
+                            Don’t wait—take action today and start moving toward your success!
+                        </p>
+                        <p class="card-text"><strong>Price:</strong> $997 (one-time payment)</p>
+                        <div class="btn-container">
+                            <a href="https://payment-processor-link.com" class="btn btn-black-white">Buy Now</a>
+                            <a href="https://bitcoin-payment-link.com" class="btn btn-bitcoin">Pay with Bitcoin</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Second Product: Digital Planner -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://nickymask.com/img/DigitalNickymaskPlanner.jpg" class="card-img-top" alt="Digital Planner">
+                    <div class="card-body">
+                        <h5 class="card-title">DIGITAL PLANNER | RESOURCES INSIDE</h5>
+                        <p class="card-text">
+                            Wearing a mask or Zentai can help you navigate the online world in unique ways:
+                            <ul>
+                                <li>Clarity – Find a clear direction by focusing on yourself.</li>
+                                <li>Anonymity – Protect your identity and navigate without judgment.</li>
+                                <li>Opportunity – Discover new aspects of yourself through exploration.</li>
+                            </ul>
+                            Inside you'll find QR codes and links to join the Zentai and Mask Elite community. Plus, this product comes as a 200-page printable and downloadable file, giving you instant access to everything you need to get started.
+                        </p>
+                        <p class="card-text"><strong>Price:</strong> $21.50</p>
+                        <div class="btn-container">
+                            <a href="https://payment-processor-link.com" class="btn btn-black-white">Buy Now</a>
+                            <a href="https://bitcoin-payment-link.com" class="btn btn-bitcoin">Pay with Bitcoin</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Third Product: Mask & Zentai Alliance | Gaming for a Greater Cause -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://nickymask.com/img/ZentaiMaskGamingCommunity.jpg" class="card-img-top" alt="Gaming Community">
+                    <div class="card-body">
+                        <h5 class="card-title">MASK & ZENTAI ALLIANCE | GAMING FOR A GREATER CAUSE</h5>
+                        <p class="card-text">
+                            Join the Mask & Zentai Alliance and collaborate with others who enjoy wearing masks and Zentais. Benefits include:
+                            <ul>
+                                <li>Team collaboration and interaction with like-minded individuals.</li>
+                                <li>Crypto sent to your wallet for participating.</li>
+                                <li>Early access to NFTs and opportunities to buy tokens and earn from holding a Zentai Mask Elite NFT. Max supply 3333.</li>
+                                <li>PDF instant download with instructions, guidance, and resources on where to submit your questions.</li>
+                            </ul>
+                            <strong>Price:</strong> $15.20 per month (cancel anytime)</p>
+                        <div class="btn-container">
+                            <a href="https://payment-processor-link.com" class="btn btn-black-white">Buy Now</a>
+                            <a href="https://bitcoin-payment-link.com" class="btn btn-bitcoin">Pay with Bitcoin</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Product Block -->
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
