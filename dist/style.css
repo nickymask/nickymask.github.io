@@ -40,6 +40,7 @@ html {
 
 .button-container {
       text-align: center; /* Center the content horizontally */
+      
     }
 
 
@@ -47,7 +48,24 @@ html {
       margin-top: 2px; /* Add some space between the button and subheading */
       margin-bottom: 0.2px;
       font-size: 10px;
-      color: #666666; /* Choose your subheading text color */
+      color: #ffffff; /* Choose your subheading text color */
+      font-family: 'Arial';
+    }
+
+    .subheading:hover {
+      margin-top: 2px; /* Add some space between the button and subheading */
+      margin-bottom: 0.2px;
+      font-size: 10px;
+      color: #00A5DF; /* Choose your subheading text color */
+      font-family: 'Arial';
+    }
+
+
+    .subheading1 {
+      margin-top: 2px; /* Add some space between the button and subheading */
+      margin-bottom: 0.2px;
+      font-size: 10px;
+      color: #7e7e7e; /* Choose your subheading text color */
       font-family: 'Arial';
     }
 
@@ -98,6 +116,32 @@ html {
     margin-top: 10px;
     margin: 10px auto 10px;
     padding: 15px 20px;
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #00A5DF;
+    border: 3px solid #00A5DF;
+    border-radius: 10px; /* Make the button round by setting border-radius to 50% */
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    background-color: rgb(3, 3, 3);
+    font-family: arial;
+  }
+  
+  a:hover {
+    background-color: #000000;;
+    color: #ffffff;
+    font-family: sans-serif;
+    border: 3px solid #ffffff;
+  }
+
+
+   /*  B Links */
+   b {
+    display: block;
+    max-width: 400px;
+    margin-top: 10px;
+    margin: 10px auto 10px;
+    padding: 15px 20px;
     font-size: .95rem;
     font-weight: 800;
     color: #ffffff;
@@ -109,13 +153,13 @@ html {
     font-family: arial;
   }
   
-  a:hover {
+  b:hover {
     background-color: #000000;;
     color: #808080;
     font-family: sans-serif;
     border: 3px solid #808080;
   }
-  
+    
   /* Featured Link */
   a.featured {
     background-color: #000000;
@@ -317,6 +361,70 @@ html {
     color: #ff69b4;
     text-decoration: none;
 }
+
+.separator {
+  position: relative;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.separator::before {
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 50%;
+  left: 50%; /* Center it */
+  width: 30%; /* Adjust width here */
+  transform: translateX(-50%); /* Center the line */
+  z-index: -1;
+}
+
+.separator span {
+  background: #00A5DF;
+  padding: 0 10px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer {
+  position: fixed; /* Fixes the footer to the bottom of the viewport */
+  text-align: center;
+  color: rgb(255, 255, 255);
+  left: 0; /* Aligns to the left */
+  right: 0; /* Aligns to the right */
+  bottom: 0; /* Sticks to the bottom */
+  text-align: center;
+  padding: 20px;
+  background-color: #000000;
+  margin-top: 20px;
+}
+
+.footer-links {
+  list-style-type: none;
+  color: rgb(255, 255, 255);
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+  gap: 15px; /* Space between links */
+}
+
+.footer-links li {
+  display: inline; /* Ensures the list items are inline */
+}
+
+.link {
+  cursor: pointer; /* Change cursor to pointer on hover */
+  color: #535353; /* Text color */
+  text-decoration: underline; /* Optional: underline to indicate clickable text */
+}
+
+.link:hover {
+  color: #007bff; /* Optional: change color on hover */
+}
+
 
 
 
