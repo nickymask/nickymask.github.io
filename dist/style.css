@@ -1,430 +1,429 @@
 /* Reset and Base Styles */
 html {
-    box-sizing: border-box;
-    font-size: 100%;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+
+.nsfw {
+    display: flex;
+    max-width: 400px;
+    margin: 0 auto; /* Center the buttons within the container */
+    font-family: sans-serif;
+    font-weight: 800;
   }
-  
-  *,
-  :after,
-  :before {
-    box-sizing: inherit;
+
+  .nsfw a.button {
+    flex: 1; /* Each button takes an equal portion of the available space */
+    margin: 5px; /* Add margin between the buttons */
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #000000; /* Choose your button color */
+    color: #C0C0C0; /* Choose your text color */
+    border-radius: 5px;
+    border: 2px solid #fff; /* Add a white border */
+    transition: background-color 0.3s;
   }
 
- .nsfw {
-      display: flex;
-      max-width: 400px;
-      margin: 0 auto; /* Center the buttons within the container */
-      font-family: sans-serif;
-      font-weight: 800;
-    }
-
-    .nsfw a.button {
-      flex: 1; /* Each button takes an equal portion of the available space */
-      margin: 5px; /* Add margin between the buttons */
-      padding: 10px;
-      text-align: center;
-      text-decoration: none;
-      background-color: #000000; /* Choose your button color */
-      color: #C0C0C0; /* Choose your text color */
-      border-radius: 5px;
-      border: 2px solid #fff; /* Add a white border */
-      transition: background-color 0.3s;
-    }
-
-    .nsfw a.button:hover {
-      background-color: #000000; /* Choose a different color on hover if desired */
-      color: #ffffff; /* Choose your text color */
-    }
+  .nsfw a.button:hover {
+    background-color: #000000; /* Choose a different color on hover if desired */
+    color: #ffffff; /* Choose your text color */
+  }
 
 
 
 .button-container {
-      text-align: center; /* Center the content horizontally */
-      
-    }
+    text-align: center; /* Center the content horizontally */
+    
+  }
 
 
 .subheading {
-      margin-top: 2px; /* Add some space between the button and subheading */
-      margin-bottom: 0.2px;
-      font-size: 10px;
-      color: #ffffff; /* Choose your subheading text color */
-      font-family: 'Arial';
-    }
-
-    .subheading:hover {
-      margin-top: 2px; /* Add some space between the button and subheading */
-      margin-bottom: 0.2px;
-      font-size: 10px;
-      color: #00A5DF; /* Choose your subheading text color */
-      font-family: 'Arial';
-    }
-
-
-    .subheading1 {
-      margin-top: 2px; /* Add some space between the button and subheading */
-      margin-bottom: 0.2px;
-      font-size: 10px;
-      color: #7e7e7e; /* Choose your subheading text color */
-      font-family: 'Arial';
-    }
-
-
-  body {
-    background-image: url('https://e1.pxfuel.com/desktop-wallpaper/195/768/desktop-wallpaper-pure-black-amoled-smartphone-pure-black.jpg');
-    background-size: cover;
-    background-position: center;
-    min-height: 100vh;
-    text-align: center;
+    margin-top: 2px; /* Add some space between the button and subheading */
+    margin-bottom: 0.2px;
+    font-size: 10px;
+    color: #ffffff; /* Choose your subheading text color */
     font-family: 'Arial';
   }
 
-  /* Mobile styles */
-@media (max-width: 767px) {
-  body {
-    background-image: url('https://e1.pxfuel.com/desktop-wallpaper/195/768/desktop-wallpaper-pure-black-amoled-smartphone-pure-black.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+  .subheading:hover {
+    margin-top: 2px; /* Add some space between the button and subheading */
+    margin-bottom: 0.2px;
+    font-size: 10px;
+    color: #00A5DF; /* Choose your subheading text color */
+    font-family: 'Arial';
   }
+
+
+  .subheading1 {
+    margin-top: 2px; /* Add some space between the button and subheading */
+    margin-bottom: 0.2px;
+    font-size: 10px;
+    color: #7e7e7e; /* Choose your subheading text color */
+    font-family: 'Arial';
+  }
+
+
+body {
+  background-image: url('https://e1.pxfuel.com/desktop-wallpaper/195/768/desktop-wallpaper-pure-black-amoled-smartphone-pure-black.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  text-align: center;
+  font-family: 'Arial';
 }
 
-  
-  /* Logo */
-  .logo {
-    width: 200px;
-    padding: 1px 20px;
-  }
-
-  /* GIF */
-  .gif {
-    width: 350px;
-    padding: 1px 20px;
-  }
-
-  /* Vid */
-  .vid {
-    width: 350px;
-    padding: 1px 20px;
-  }
-  
-  
-  /* Links */
-  a {
-    display: block;
-    max-width: 400px;
-    margin-top: 10px;
-    margin: 10px auto 10px;
-    padding: 15px 20px;
-    font-size: 1.1rem;
-    font-weight: 800;
-    color: #00A5DF;
-    border: 3px solid #00A5DF;
-    border-radius: 10px; /* Make the button round by setting border-radius to 50% */
-    text-decoration: none;
-    transition: all 0.2s ease-in-out;
-    background-color: rgb(3, 3, 3);
-    font-family: arial;
-  }
-  
-  a:hover {
-    background-color: #000000;;
-    color: #ffffff;
-    font-family: sans-serif;
-    border: 3px solid #ffffff;
-  }
+/* Mobile styles */
+@media (max-width: 767px) {
+body {
+  background-image: url('https://e1.pxfuel.com/desktop-wallpaper/195/768/desktop-wallpaper-pure-black-amoled-smartphone-pure-black.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+}
 
 
-   /*  B Links */
-   b {
-    display: block;
-    max-width: 400px;
-    margin-top: 10px;
-    margin: 10px auto 10px;
-    padding: 15px 20px;
-    font-size: .95rem;
-    font-weight: 800;
-    color: #ffffff;
-    border: 3px solid #ffffff;
-    border-radius: 10px; /* Make the button round by setting border-radius to 50% */
-    text-decoration: none;
-    transition: all 0.2s ease-in-out;
-    background-color: rgb(3, 3, 3);
-    font-family: arial;
-  }
-  
-  b:hover {
-    background-color: #000000;;
-    color: #808080;
-    font-family: sans-serif;
-    border: 3px solid #808080;
-  }
-    
-  /* Featured Link */
-  a.featured {
-    background-color: #000000;
-    position: relative;
-    color: #000000f6;
-    font-weight: 800;
-    border: 0px solid #ffffff;
-    border-radius: 10px; /* Make the button round by setting border-radius to 50% */
-    font-family: sans-serif;
-  }
+/* Logo */
+.logo {
+  width: 200px;
+  padding: 1px 20px;
+}
 
-  a.featured:hover {
-    background-color: #000000;;
-    color: #808080;
-    border: 0px solid #333333;
-  }
+/* GIF */
+.gif {
+  width: 350px;
+  padding: 1px 20px;
+}
 
-  
-  a.featured:before {
-    content: "";
-    position: absolute;
-    border-radius: 10px; /* Make the button round by setting border-radius to 50% */
-    top: 2px;
-    left: 2px;
-    width: calc(100% - 4px);
-    height: calc(100% - 4px);
-    border: 1px solid #333333;
-  }
-  
-  /* Headings */
-  h1 {
-    font-size: 25px;
-    text-transform: uppercase;
-    font-weight: 900;
-    letter-spacing: 2px;
-    color: #C0C0C0;
-    font-family: Arial;
-  }
-  
+/* Vid */
+.vid {
+  width: 350px;
+  padding: 1px 20px;
+}
 
-  h2 {
-    font-size: 12px;
-    text-transform: none;
-    font-weight: 600;
-    letter-spacing: 2px;
-    color: #ffffff;
-    font-weight: bold;
-  }
 
-  h3 {
-    font-size: 15px;
-    text-transform: none;
-    font-weight: 400;
-    letter-spacing: 2px;
-    color: #ffffff;
-    font-weight: bold;
-    font-family: sans-serif;
-  }
+/* Links */
+a {
+  display: block;
+  max-width: 400px;
+  margin-top: 10px;
+  margin: 10px auto 10px;
+  padding: 15px 20px;
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #00A5DF;
+  border: 3px solid #00A5DF;
+  border-radius: 10px; /* Make the button round by setting border-radius to 50% */
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  background-color: rgb(3, 3, 3);
+  font-family: arial;
+}
+
+a:hover {
+  background-color: #000000;;
+  color: #ffffff;
+  font-family: sans-serif;
+  border: 3px solid #ffffff;
+}
+
+
+ /*  B Links */
+ a.b {
+  display: block;
+  max-width: 400px;
+  margin-top: 10px;
+  margin: 10px auto 10px;
+  padding: 15px 20px;
+  font-size: .95rem;
+  font-weight: 800;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+  border-radius: 10px; /* Make the button round by setting border-radius to 50% */
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  background-color: rgb(3, 3, 3);
+  font-family: arial;
+}
+
+a.b:hover {
+  background-color: #000000;;
+  color: #808080;
+  font-family: sans-serif;
+  border: 3px solid #808080;
+}
   
-  /* Channels */
-  .channels {
-    display: flex;
-    max-width: 400px;
-    margin: 0 auto;
-  }
-  
-  .channels a {
-    flex: 1;
-    padding: 5px 10px;
-    margin-right: 10px;
-    background-color: #474747;
-    border: none;
-  }
-  
-  .channels a:last-child {
-    margin-right: 0;
-  }
-  
-  .channels a:hover {
-    text-decoration: underline;
-  }
-  
-  .black-background {
-    display: block;
-    max-width: 500px;
-    background-color: black;
-    color: #fffffff6;
-    padding: 10px;
-    text-align: center;
-    font-family: sans-serif;
-    margin: 0 auto 15px;
-    font-weight: 700;
-    font-size: 0.85rem;
-  }
+/* Featured Link */
+a.featured {
+  background-color: #000000;
+  position: relative;
+  color: #000000f6;
+  font-weight: 800;
+  border: 0px solid #ffffff;
+  border-radius: 10px; /* Make the button round by setting border-radius to 50% */
+  font-family: sans-serif;
+}
+
+a.featured:hover {
+  background-color: #000000;;
+  color: #808080;
+  border: 0px solid #333333;
+}
+
+
+a.featured:before {
+  content: "";
+  position: absolute;
+  border-radius: 10px; /* Make the button round by setting border-radius to 50% */
+  top: 2px;
+  left: 2px;
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  border: 1px solid #333333;
+}
+
+/* Headings */
+h1 {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #C0C0C0;
+  font-family: Arial;
+}
+
+
+h2 {
+  font-size: 12px;
+  text-transform: none;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 15px;
+  text-transform: none;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+/* Channels */
+.channels {
+  display: flex;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.channels a {
+  flex: 1;
+  padding: 5px 10px;
+  margin-right: 10px;
+  background-color: #474747;
+  border: none;
+}
+
+.channels a:last-child {
+  margin-right: 0;
+}
+
+.channels a:hover {
+  text-decoration: underline;
+}
+
+.black-background {
+  display: block;
+  max-width: 500px;
+  background-color: black;
+  color: #fffffff6;
+  padding: 10px;
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0 auto 15px;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
 
 .black-blue {
-    display: block;
-    max-width: 400px;
-    background-color: #80808000;
-    color: #ffffff;
-    padding: 8px;
-    text-align: center;
-    font-family: 'Arial';
-    margin: 0 auto 15px;
-    font-weight: 800;
-    font-size: .75rem;
-  }
+  display: block;
+  max-width: 400px;
+  background-color: #80808000;
+  color: #ffffff;
+  padding: 8px;
+  text-align: center;
+  font-family: 'Arial';
+  margin: 0 auto 15px;
+  font-weight: 800;
+  font-size: .75rem;
+}
 
 
-  .white-background {
-    display: block;
-    max-width: 250px;
-    background-color: black;
-    color: #ffffff;
-    padding: 10px;
-    text-align: center;
-    font-family: sans-serif;
-    margin: 0 auto 15px;
-    font-weight: 700;
-    font-size: 0.85rem;
-  }
+.white-background {
+  display: block;
+  max-width: 250px;
+  background-color: black;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0 auto 15px;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
 
 /* Style for the video container */
 .video-container {
-    max-width: 500px; /* Set your desired maximum width for desktop */
-    width: 100%;
-    border-radius: 15px; /* Adjust the radius as per your preference */
-    overflow: hidden;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: Add a shadow effect */
-    margin: 0 auto; /* Center the container horizontally */
+  max-width: 500px; /* Set your desired maximum width for desktop */
+  width: 100%;
+  border-radius: 15px; /* Adjust the radius as per your preference */
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: Add a shadow effect */
+  margin: 0 auto; /* Center the container horizontally */
 }
 
 /* Style for the video element inside the container */
 .video-container video {
-    width: 100%;
-    height: auto;
-    display: block;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .custom-button {
-  max-width: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-  border: 3px solid #ffffff;
-  border-radius: 10px; 
-  text-decoration: none;
-  color: #666666;
-  font-family: 'Arial';
+max-width: 400px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px;
+border: 3px solid #ffffff;
+border-radius: 10px; 
+text-decoration: none;
+color: #666666;
+font-family: 'Arial';
 }
 
 .button-description {
-  max-width: 30%; /* Adjust as needed */
-  font-family: Arial;
-  text-align: left;
-  font-size: 10px;
-  font-weight: 700;
-  color: #666666
+max-width: 30%; /* Adjust as needed */
+font-family: Arial;
+text-align: left;
+font-size: 10px;
+font-weight: 700;
+color: #666666
 
 
 }
 
 .button-img {
-  max-width: 30%; /* Adjust as needed */
-  border-radius: 3px;
-  margin-right: 10px;
+max-width: 30%; /* Adjust as needed */
+border-radius: 3px;
+margin-right: 10px;
 }
 
 .get-full-video-button {
-  padding: 15px 20px;
-  background-color: #ffffff;
-  font-size: 0.75rem;
-  color: #666666;
-  border: none;
-  font-weight: 800;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: none; /* Smooth transition effect */
-  font-family: 'Arial';
+padding: 15px 20px;
+background-color: #ffffff;
+font-size: 0.75rem;
+color: #666666;
+border: none;
+font-weight: 800;
+border-radius: 5px;
+cursor: pointer;
+transition: none; /* Smooth transition effect */
+font-family: 'Arial';
 }
 
 .get-full-video-button:hover {
-  background-color: #666666; /* Change the hover color to black */
-  color: #000000;
-  
- 
-  
+background-color: #666666; /* Change the hover color to black */
+color: #000000;
+
+
+
 }
 
 .near {
-    color: #ff69b4; /* Neon hot pink color */
-    font-size: 3em;
-    text-shadow: 0 0 10px #ff69b4, 0 0 20px #ff69b4, 0 0 30px #ff69b4, 0 0 40px #ff69b4;
-    text-align: center;
+  color: #ff69b4; /* Neon hot pink color */
+  font-size: 3em;
+  text-shadow: 0 0 10px #ff69b4, 0 0 20px #ff69b4, 0 0 30px #ff69b4, 0 0 40px #ff69b4;
+  text-align: center;
 }
 
 .near-link {
-    color: #ff69b4;
-    text-decoration: none;
+  color: #ff69b4;
+  text-decoration: none;
 }
 
 .separator {
-  position: relative;
-  text-align: center;
-  margin: 20px 0;
+position: relative;
+text-align: center;
+margin: 20px 0;
 }
 
 .separator::before {
-  content: "";
-  display: block;
-  height: 2px;
-  background-color: rgb(255, 255, 255);
-  position: absolute;
-  top: 50%;
-  left: 50%; /* Center it */
-  width: 30%; /* Adjust width here */
-  transform: translateX(-50%); /* Center the line */
-  z-index: -1;
+content: "";
+display: block;
+height: 2px;
+background-color: rgb(255, 255, 255);
+position: absolute;
+top: 50%;
+left: 50%; /* Center it */
+width: 30%; /* Adjust width here */
+transform: translateX(-50%); /* Center the line */
+z-index: -1;
 }
 
 .separator span {
-  background: #00A5DF;
-  padding: 0 10px;
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  font-size: 16px;
+background: #00A5DF;
+padding: 0 10px;
+color: rgb(255, 255, 255);
+font-weight: bold;
+font-size: 16px;
 }
 
 .footer {
-  position: fixed; /* Fixes the footer to the bottom of the viewport */
-  text-align: center;
-  color: rgb(255, 255, 255);
-  left: 0; /* Aligns to the left */
-  right: 0; /* Aligns to the right */
-  bottom: 0; /* Sticks to the bottom */
-  text-align: center;
-  padding: 20px;
-  background-color: #000000;
-  margin-top: 20px;
+position: fixed; /* Fixes the footer to the bottom of the viewport */
+text-align: center;
+color: rgb(255, 255, 255);
+left: 0; /* Aligns to the left */
+right: 0; /* Aligns to the right */
+bottom: 0; /* Sticks to the bottom */
+text-align: center;
+padding: 20px;
+background-color: #000000;
+margin-top: 20px;
 }
 
 .footer-links {
-  list-style-type: none;
-  color: rgb(255, 255, 255);
-  padding: 0;
-  margin: 0;
-  display: inline-flex;
-  gap: 15px; /* Space between links */
+list-style-type: none;
+color: rgb(255, 255, 255);
+padding: 0;
+margin: 0;
+display: inline-flex;
+gap: 15px; /* Space between links */
 }
 
 .footer-links li {
-  display: inline; /* Ensures the list items are inline */
+display: inline; /* Ensures the list items are inline */
 }
 
 .link {
-  cursor: pointer; /* Change cursor to pointer on hover */
-  color: #535353; /* Text color */
-  text-decoration: underline; /* Optional: underline to indicate clickable text */
+cursor: pointer; /* Change cursor to pointer on hover */
+color: #535353; /* Text color */
+text-decoration: underline; /* Optional: underline to indicate clickable text */
 }
 
 .link:hover {
-  color: #007bff; /* Optional: change color on hover */
+color: #007bff; /* Optional: change color on hover */
 }
-
 
 
 
