@@ -20,57 +20,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
-        <style>
-    .overlay {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.9); /* Almost fully black overlay */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        z-index: 9999;
-    }
-
-    .popup {
-        background: #1a1a1a; /* Dark grey popup */
-        padding: 20px;
-        text-align: center;
-        border-radius: 8px;
-        width: 90%;
-        max-width: 400px;
-        box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Soft white shadow */
-    }
-
-    h2 {
-        margin-top: 0;
-        font-size: 1.5em;
-        color: #ffffff; /* White heading */
-    }
-
-    p {
-        margin: 20px 0;
-        font-size: 1em;
-        color: #cccccc; /* Lighter grey text */
-    }
-
-    button {
-        background-color: #444444; /* Dark grey button */
-        color: #ffffff; /* White text */
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        font-size: 1em;
-    }
-
-    button:hover {
-        background-color: #666666; /* Lighter grey on hover */
-    }
-</style>
-
+        
    
     </head>
     <body>
@@ -166,30 +116,7 @@
         </footer>
         
         
-<div id="age-verification-overlay" class="overlay">
-    <div class="popup">
-        <h2>Are You 18+?</h2>
-        <p>By proceeding to this page, you confirm that you are at least 18 years old. This page may contain links to NSFW platforms.</p>
-        <button id="proceed-btn">Proceed</button>
-    </div>
-</div>
-
-<script>
-    // When the page loads, show the age verification pop-up
-    window.onload = function() {
-        document.getElementById('age-verification-overlay').style.display = 'flex';
-    };
-
-    // Handle the Proceed button click
-    document.getElementById('proceed-btn').addEventListener('click', function() {
-        // Redirect to your specific page or just hide the pop-up
-        window.location.href = 'https://zentai.nickymask.com/m1';  // Optional: Replace with desired URL
-        // Hide the pop-up if you don't want to redirect
-        // document.getElementById('age-verification-overlay').style.display = 'none';
-    });
-</script>
-
-        
+       
 
                 
     </body>
