@@ -115,6 +115,29 @@
         </footer>
         
         
+<div id="age-verification-overlay" class="overlay">
+    <div class="popup">
+        <h2>Are You 18+?</h2>
+        <p>By proceeding to this page, you confirm that you are at least 18 years old. This page may contain links to NSFW platforms.</p>
+        <button id="proceed-btn">Proceed</button>
+    </div>
+</div>
+
+<script>
+    // When the page loads, show the age verification pop-up
+    window.onload = function() {
+        document.getElementById('age-verification-overlay').style.display = 'flex';
+    };
+
+    // Handle the Proceed button click
+    document.getElementById('proceed-btn').addEventListener('click', function() {
+        // Redirect to your specific page or just hide the pop-up
+        window.location.href = 'https://zentai.nickymask.com/x';  // Optional: Replace with desired URL
+        // Hide the pop-up if you don't want to redirect
+        // document.getElementById('age-verification-overlay').style.display = 'none';
+    });
+</script>
+
         
 
                 
