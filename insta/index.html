@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>18+ Confirmation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000; /* Black background */
+            color: #ffffff; /* Light text for readability */
+        }
+
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9); /* Almost fully black overlay */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+
+        .popup {
+            background: #1a1a1a; /* Dark grey popup */
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            width: 90%;
+            max-width: 400px;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Soft white shadow */
+        }
+
+        h2 {
+            margin-top: 0;
+            font-size: 1.5em;
+            color: #ffffff; /* White heading */
+        }
+
+        p {
+            margin: 20px 0;
+            font-size: 1em;
+            color: #cccccc; /* Lighter grey text for body */
+        }
+
+        button {
+            background-color: #444444; /* Dark grey button */
+            color: #ffffff; /* White text */
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        button:hover {
+            background-color: #666666; /* Lighter grey on hover */
+        }
+    </style>
+</head>
+<body>
+    <div id="age-verification-overlay" class="overlay">
+        <div class="popup">
+            <h2>Are You 18+?</h2>
+            <p>By proceeding to this page, you confirm that you are at least 18 years old. This page may contain links to NSFW platforms.</p>
+            <button id="proceed-btn">Proceed</button>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('proceed-btn').addEventListener('click', function() {
+            // Redirect to your desired URL when the button is clicked
+            window.location.href = 'https://zentai.nickymask.com/instagram';
+        });
+    </script>
+</body>
+</html>
