@@ -71,14 +71,13 @@
 
         /* Popup style */
         .popup-message {
-            display: none; /* Hidden until triggered */
             background-color: rgba(0, 0, 0, 0.8);
-            position: fixed; /* Make sure the popup covers the whole screen */
+            position: fixed;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            display: flex;
+            display: none; /* Keep it hidden initially */
             align-items: center;
             justify-content: center;
             color: #fff;
@@ -114,29 +113,34 @@
         <div class="description">
             Be one of the first 10 to access this exclusive video! Only the first 10 will get the chance—don’t miss out!
         </div>
-        <button class="button join-waitlist" onclick="showPopup()">Join Waitlist on Telegram</button>
+        <button class="button join-waitlist" id="joinButton">Join Waitlist on Telegram</button>
     </div>
 
     <!-- Popup for 18+ confirmation -->
     <div class="popup-message" id="popupMessage">
         <div class="popup-content">
             <p>18+ Only. Are you over 18 years old?</p>
-            <button class="confirm-button" onclick="joinWaitlist()">Yes, I'm 18+</button>
+            <button class="confirm-button" id="confirmButton">Yes, I'm 18+</button>
         </div>
     </div>
 
     <script>
-        // Function to show the age verification popup
-        function showPopup() {
-            document.getElementById("popupMessage").style.display = "flex";
-        }
+        // Get button and popup elements
+        const joinButton = document.getElementById("joinButton");
+        const popupMessage = document.getElementById("popupMessage");
+        const confirmButton = document.getElementById("confirmButton");
 
-        // Function to redirect to Telegram after 18+ confirmation
-        function joinWaitlist() {
-            document.getElementById("popupMessage").style.display = "none"; // Hide popup after confirmation
+        // Show the popup only when user clicks the "Join Waitlist" button
+        joinButton.addEventListener("click", function() {
+            popupMessage.style.display = "flex";
+        });
+
+        // Redirect to Telegram after 18+ confirmation
+        confirmButton.addEventListener("click", function() {
+            popupMessage.style.display = "none"; // Hide popup after confirmation
             // Redirect to Telegram link (replace with your actual Telegram link)
             window.location.href = "https://t.me/YourExclusiveGroupLink";
-        }
+        });
     </script>
 </body>
 </html>
