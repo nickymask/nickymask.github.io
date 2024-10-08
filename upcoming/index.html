@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exclusive Video Waitlist</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #f5f5f5;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .video-thumbnail {
+            width: 100%;
+            max-width: 300px;
+            height: 200px;
+            border-radius: 15px;
+            background-color: #333;
+            background-image: url('video-thumbnail.jpg'); /* Add GIF or video thumbnail here */
+            background-size: cover;
+            background-position: center;
+            margin-bottom: 20px;
+        }
+
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #f8e1d9; /* Soft creamy color for title */
+            margin-bottom: 10px;
+        }
+
+        .description {
+            font-size: 16px;
+            color: #c0b2ac; /* Lighter creamy tone for text */
+            margin-bottom: 30px;
+        }
+
+        .button {
+            width: 80%;
+            max-width: 250px;
+            padding: 15px;
+            border: none;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            font-size: 16px;
+            cursor: pointer;
+            text-transform: uppercase;
+        }
+
+        .join-waitlist {
+            background-color: #f8e1d9; /* Feminine creamy color */
+            color: #000;
+        }
+
+        .button:hover {
+            opacity: 0.9;
+        }
+
+        /* Popup style */
+        .popup-message {
+            display: none; /* Hidden until triggered */
+            background-color: rgba(0, 0, 0, 0.8);
+            position: fixed; /* Make sure the popup covers the whole screen */
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            z-index: 9999; /* Ensure it shows above other elements */
+        }
+
+        .popup-content {
+            background-color: #222;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .confirm-button {
+            background-color: #f8e1d9; /* Feminine creamy color */
+            color: #000;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .confirm-button:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="video-thumbnail"></div>
+        <div class="title">Exclusive Video Waitlist</div>
+        <div class="description">
+            Be one of the first 10 to access this exclusive video! Only the first 10 will get the chance—don’t miss out!
+        </div>
+        <button class="button join-waitlist" onclick="showPopup()">Join Waitlist on Telegram</button>
+    </div>
+
+    <!-- Popup for 18+ confirmation -->
+    <div class="popup-message" id="popupMessage">
+        <div class="popup-content">
+            <p>18+ Only. Are you over 18 years old?</p>
+            <button class="confirm-button" onclick="joinWaitlist()">Yes, I'm 18+</button>
+        </div>
+    </div>
+
+    <script>
+        // Function to show the age verification popup
+        function showPopup() {
+            document.getElementById("popupMessage").style.display = "flex";
+        }
+
+        // Function to redirect to Telegram after 18+ confirmation
+        function joinWaitlist() {
+            document.getElementById("popupMessage").style.display = "none"; // Hide popup after confirmation
+            // Redirect to Telegram link (replace with your actual Telegram link)
+            window.location.href = "https://t.me/YourExclusiveGroupLink";
+        }
+    </script>
+</body>
+</html>
