@@ -90,6 +90,7 @@
             background-color: #222;
             padding: 20px;
             border-radius: 10px;
+            position: relative;
         }
 
         .confirm-button {
@@ -103,6 +104,20 @@
 
         .confirm-button:hover {
             opacity: 0.9;
+        }
+
+        /* Close button style */
+        .close-popup {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 24px;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .close-popup:hover {
+            color: #f8e1d9; /* Change color on hover */
         }
     </style>
 </head>
@@ -119,6 +134,7 @@
     <!-- Popup for 18+ confirmation -->
     <div class="popup-message" id="popupMessage">
         <div class="popup-content">
+            <span class="close-popup" id="closePopup">&times;</span> <!-- X Button -->
             <p>18+ Only. Are you over 18 years old?</p>
             <button class="confirm-button" id="confirmButton">Yes, I'm 18+</button>
         </div>
@@ -129,10 +145,16 @@
         const joinButton = document.getElementById("joinButton");
         const popupMessage = document.getElementById("popupMessage");
         const confirmButton = document.getElementById("confirmButton");
+        const closePopup = document.getElementById("closePopup");
 
         // Show the popup only when user clicks the "Join Waitlist" button
         joinButton.addEventListener("click", function() {
             popupMessage.style.display = "flex";
+        });
+
+        // Close the popup when the close (X) button is clicked
+        closePopup.addEventListener("click", function() {
+            popupMessage.style.display = "none";
         });
 
         // Redirect to Telegram after 18+ confirmation
